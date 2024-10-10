@@ -1,0 +1,133 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.pg1{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, #17dace, #599be2);
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+
+.region1{
+    height: 100%;
+    width: 70%;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.region2{
+    height: 100%;
+    width: 30%;
+    flex-direction: column;
+    gap: 10px;
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    border: solid white 1px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    border: 10px;
+    background-color: rgba(255, 255, 255, 0.363);
+    backdrop-filter: blur(50px);
+    border: solid white 1px;
+}
+
+.area1{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.area2{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.apply{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: green;
+    font-size: 19px;
+    font-weight: bolder;
+    color: white;
+    display:  flex;
+    align-items:  center;
+    justify-content: center;
+}
+
+.apply:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+.submit{
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.389);
+    backdrop-filter: blur(50px);
+    border: solid white 2px;
+}
+
+.val{
+    font-size: 2rem;
+    height: 30px;
+    width: 30px;
+    background: transparent;
+    border: 0;
+}
+
+.valadder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.add{
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.389);
+    backdrop-filter: blur(50px);
+    border: solid white 2px;
+}
+
+.saish{
+    position: absolute;
+    margin-top: 550px;
+    z-index: 2;
+    font-size: 1rem;
+    font-weight: bolder;
+}
